@@ -14,10 +14,19 @@ body{
 
 }
 .text-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+    justify-items: center;
+    align-items: center;
+    height: 50vh;
+    border: 2px solid rgb(240, 140, 165);
+
+}
+.sub-text-container{
     display: flex;
     flex-direction: column;
     gap:34px;
-
 }
 .image-container{
 
@@ -34,6 +43,7 @@ body{
     border:3px solid indianred;
     width:340px;
     color:hsl(333, 80%, 67%);
+    line-height: 22px;
 }
 
 
